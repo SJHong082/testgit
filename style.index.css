@@ -17,7 +17,7 @@ nav a{
 }
 nav a:hover{
     background-color: gray;
-    color: azure;
+    color: yellow;
 }
 section{
     background-color: coral;
