@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>국내여행지 정보제공</title>
+    <link rel="stylesheet" href="./project.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="div_center">
+    <header class="header">
+        <div>
+            <img src="../images/korea_travel.png" alt="로고">
+        </div>
+        <div>
+            <h1>국내 지역별 여행지</h1>
+        </div>
+        <div>
+            <ul class="top">
+                <li><a href="#">로그인</a></li>|
+                <li><a href="#">회원가입</a></li>|
+                <li><a href="#">이벤트</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <fieldset>
+        <div class="nav_menu">
+            <a href="#"><b>서울</b></a>
+            <a href="#"><b>경기도</b></a>
+            <a href="#"><b>강원도</b></a>
+            <a href="#"><b>제주도</b></a>
+            <div class="dropdown_Ch">
+                <button class="dropbtn_Ch"><b>충청도</b></button>
+                <div class="dropdown-content_Ch">
+                    <a href="#">충청북도</a>
+                    <a href="#">충청남도</a>
+                </div>
+            </div>
+            <div class="dropdown_Gs">
+                <button class="dropbtn_Gs"><b>경상도</b></button>
+                <div class="dropdown-content_Gs">
+                    <a href="#">경상북도</a>
+                    <a href="#">경상남도</a>
+                </div>
+            </div>
+            <div class="dropdown_Jr">
+                <button class="dropbtn_Jr"><b>전라도</b></button>
+                <div class="dropdown-content_Jr">
+                    <a href="#">전라북도</a>
+                    <a href="#">전라남도</a>
+                </div>
+            </div>  
+        </div>
+        
+    </fieldset>
+    </nav>
+
+    <section>
+      <fieldset>
+        <div class="container">
+            <br>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- 메인화면 버튼선택 -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+          
+                <div class="item active">
+                  <img src="../images/main_banner/jeju-island-g0805f3282_1280.jpg" alt="성산일출봉" width="500" height="380">
+                  <div class="carousel-caption">
+                    <h3>성산일출봉</h3>
+                    <p>푸른바다 사이에 우뚝 솟은 성채</p>
+                  </div>
+                </div>
+          
+                <div class="item">
+                  <img src="../images/main_banner/seolark.jpg" alt="설악산" width="500" height="380">
+                  <div class="carousel-caption">
+                    <h3>설악산</h3>
+                    <p>5번째 국립공원지정, 유네스코 생물권보전지역</p>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <img src="../images/main_banner/seoul-city.jpg" alt="서울" width="500" height="380">
+                  <div class="carousel-caption">
+                    <h3>서울</h3>
+                    <p>아름다운 서울야경</p>
+                  </div>
+                </div>
+          
+                <div class="item">
+                  <img src="../images/main_banner/suwon-hwaseong.jpg" alt="수원화성" width="500" height="380">
+                  <div class="carousel-caption">
+                    <h3>수원화성</h3>
+                    <p>아름다운 문화유산, 수원화성</p>
+                  </div>
+                </div>
+            
+              </div>
+          
+              <!-- 메인화면 좌우버튼 선택 -->
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        <div class="festival">
+          <h4>이번달 전국 축제일정</h4>
+        </div>
+        <div class="event">
+          <h4>이벤트</h4>
+        </div>
+      </fieldset>
+    </section>
+
+    <footer>
+        하단
+    </footer>
+</div>
+</body>
+</html>

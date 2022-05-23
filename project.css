@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+.div_center{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    width: 1200px;
+    margin: 0 auto;
+}
+header img{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    z-index: -1;
+}
+.top{
+    /* 상단 메뉴 */
+    float: right;
+    list-style-type: none;
+    display: flex;
+}
+nav{
+    clear: both;
+}
+nav a{
+    float: left;
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+}
+nav a:hover{
+    display: block;
+    background-color: whitesmoke;
+    color: lightcoral;
+}
+/* nav_충청도 */
+.dropbtn_Ch {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown_Ch {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content_Ch {
+    display: none;
+    position:absolute;
+    background-color: white;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content_Ch a {
+      /* 버튼 내 하위메뉴 설정 */
+    color: black;
+    padding: 12px 16px;
+    display:block;
+  }
+
+.dropdown-content_Ch a:hover {
+    /* 버튼 내 하위메뉴 설정 */
+    background-color: lightgoldenrodyellow;
+    color: lightcoral;
+    padding:12px 40px 12px 16px;
+    font-weight: bold;
+}
+
+.dropdown_Ch:hover .dropdown-content_Ch {
+    /* 메뉴바 클릭 시 버튼 표시_충청도  */
+    display: block;
+}
+
+.dropdown_Ch:hover .dropbtn_Ch {
+    background-color: whitesmoke;
+    color: lightcoral;
+  }
+
+/* nav_경상도 */
+.dropbtn_Gs {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown_Gs {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content_Gs {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content_Gs a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content_Gs a:hover {
+    background-color: lightgoldenrodyellow;
+    color: lightcoral;
+    font-weight: bold;
+    padding:12px 40px 12px 16px;
+}
+
+.dropdown_Gs:hover .dropdown-content_Gs {
+  display: block;
+}
+
+.dropdown_Gs:hover .dropbtn_Gs {
+    background-color: whitesmoke;
+    color: lightcoral;
+  }
+
+/* nav_전라도 */
+  .dropbtn_Jr {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown_Jr {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content_Jr {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content_Jr a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content_Jr a:hover {
+    background-color: lightgoldenrodyellow;
+    color: lightcoral;
+    font-weight: bold;
+    padding:12px 40px 12px 16px;
+}
+
+.dropdown_Jr:hover .dropdown-content_Jr {
+  display: block;
+}
+
+.dropdown_Jr:hover .dropbtn_Jr {
+    background-color: whitesmoke;
+    color: lightcoral;
+  }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 80%;
+    margin: auto;
+  }
+
+div .festival{
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: white;
+}
+
+div .event{
+  border: 1px solid black;
+  margin: 0 auto;
+  background-color: white;
+}
